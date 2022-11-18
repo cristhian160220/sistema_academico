@@ -38,8 +38,13 @@ $res_b_estudiante = mysqli_fetch_array($busc_estudiante);
     <div class="container body">
       <div class="main_container">
         <?php include "include/menu.php" ?>  
-        <!-- Menu en la parte superior -->
+        <!-- Menu en la parte superior cfc-->
         <!-- page content -->
+
+
+
+
+        
         <div class="right_col" role="main">
         <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12">
