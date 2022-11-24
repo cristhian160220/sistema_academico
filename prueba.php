@@ -1,11 +1,12 @@
 <?php
-$a = 3;
-$b = 5;
 
-if (a == b) {
-    echo "hola";
-}else{
-    echo "hello";
+
+if ($a>$b and $a>$c) {
+    echo "el numero mayor es".$a;
 }
-
+elseif ($b>$a and $b>$c) {
+    echo "el numero mayor es".$b;
+}else  {
+    echo "el numero mayor es".$c;
+}
 ?>
