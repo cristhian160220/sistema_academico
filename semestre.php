@@ -123,9 +123,9 @@ include "include/verificar_sesion.php";
     "loadingRecords": "Cargando...",
     "paginate": {
         "first": "Primero",
-        "last": "Último",
-        "next": "Siguiente",
-        "previous": "Anterior"
+        "last": "Último0",
+        "next": "Siguiennte",
+        "previous": "Anterrior"
     },
       }
     });
