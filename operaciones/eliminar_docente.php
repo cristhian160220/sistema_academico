@@ -15,5 +15,4 @@ if ($ejecutar) {
 	window.history.back();
  </script>";
 }mysqli_close($conexion);
-
 ?>
