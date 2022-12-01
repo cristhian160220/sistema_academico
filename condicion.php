@@ -76,7 +76,7 @@ include('include/verificar_sesion.php');
                                         <?php
                                         }
                                         ?>
-
+..
                                     </tbody>
                                 </table>
                             </div>

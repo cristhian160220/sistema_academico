@@ -125,7 +125,7 @@ include "include/verificar_sesion.php";
         "first": "Primero",
         "last": "Último0",
         "next": "Siguiennte",
-        "previous": "Anterrior"
+        "previous": "Anter rior"
     },
       }
     });
