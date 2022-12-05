@@ -12,13 +12,9 @@ if($contar_filas==1 && password_verify($password,$pass)){
     session_start();
     $_SESSION['id_usu_sisacad_iesthuanta'] = $resultado_consulta['id'];
     header("location: ../index.php");
-}else{
-    echo "<script>
-    alert('Error, Usuario y/o Contraseña incorrecta');
-    window.history.back();
-    </script>
-    ";
-}
-
-
-?>
+} //else if($contar_filas===0){echo "<script>
+    //alert('no existe en nuestra empresa');
+    //window.location= '../login.php';</script>";}
+else{echo "<script>
+    alert('Usuario o contraseña esta incorrecto');
+    window.location= '../login.php';</script>";}?>

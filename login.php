@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>bienvenidos chic@s </title>
 
     <!-- Bootstrap -->
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,10 +15,10 @@
     <link href="Gentella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
     <link href="Gentella/vendors/nprogress/nprogress.css" rel="stylesheet">
-    <!-- Animate.css -->
+    <!-- Animate.css maricela -->
     <link href="Gentella/vendors/animate.css/animate.min.css" rel="stylesheet">
 
-    <!-- Custom Theme Style -->
+    <!-- maricela Theme Style -->
     <link href="Gentella/build/css/custom.min.css" rel="stylesheet">
   </head>
 
@@ -35,8 +35,8 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
-            <form method="POST" action="operaciones/iniciar_sesion.php">
-              <h1>Inicio de Sesión</h1>
+            <form method="POST" action="operaciones/iniciar_sesion.php" class="col-sm-6 col-md-12">
+              <h1>Iniciar de Sesión *</h1>
               <div>
                 <input type="text" name="usuario" class="form-control" placeholder="Usuario" required="" />
               </div> 
@@ -63,8 +63,8 @@
 
                 
                 <div>
-                  <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                  <h1><i class="fa fa-paw"></i> cristhian figueroa </h1>
+                  <p>©2026 derechos reservados. sitio web verificado EE.UU . Privacidad y terminos</p>
                 </div>
               </div>
             </form>

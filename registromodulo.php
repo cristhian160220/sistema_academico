@@ -2,22 +2,16 @@
 include "include/conexion.php";
 include "include/busquedas.php";
 include "include/verificar_sesion.php";
-
-$id_genero = $_GET['id'];
-$busc_genero = buscarGeneroById($conexion, $id_genero);
-$res_b_genero= mysqli_fetch_array($busc_genero);
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gentelella Alela! | </title>
+    <title>bienvenido | </title>
     <!-- Bootstrap -->
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -47,45 +41,70 @@ $res_b_genero= mysqli_fetch_array($busc_genero);
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Editar Género</h2>
-
+                                <h2>registros de los modulos</h2>
                                 <div class="clearfix"></div>
                             </div>
                             <div class="x_content">
                                 <br />
-                                <form class="form-horizontal form-label-left" method="POST" action="./operaciones/actualizar_genero.php">
-                                    <input type="text" name="id" value="<?php echo $id_genero; ?>">
+                                <form class="form-horizontal form-label-left" method="POST" action="operaciones/resgitrarmodulos.php">
+
                                     <div class="form-group">
-                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Género :
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Carrera Profesionales
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <input type="text" name="genero" class="form-control col-md-7 col-xs-12" value="<?php echo $res_b_genero['genero']; ?>">
+                                            <select type="text" name="carrera" class="form-control col-md-7 col-xs-12">
+                                            <option value="">Seleccionar</option>
+                                            <?php 
+                                            $b_prog = buscarProgramaEstudio($conexion);
+                                            while ($res_b_prog = mysqli_fetch_array($b_prog)) {
+                                            ?> 
+                                            <option value="<?php echo $res_b_prog['id']?>"> <?php echo $res_b_prog['nombre']?> </option>
+                                            <?php
+                                            }
+                                            ?>
+                                            </select>
                                         </div>
                                     </div>
-                                    <div class="ln_solid"></div>
                                     <div class="form-group">
-                                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                                            <a href="./genero.php" class="btn btn-warning" type="button">Cancelar</a>
-                                            <button type="submit" class="btn btn-success">Actualizar Datos</button>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Nombre :
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="descripcion" class="form-control col-md-7 col-xs-12">
                                         </div>
                                     </div>
-
-                                </form>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Nro de Módulo :
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="nro_modulo" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
                             </div>
+                            <div class="ln_solid"></div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                    <a class="btn btn-warning" type="button" href="./modulo_formativo.php">Cancelar</a>
+                                    <button class="btn btn-primary" type="reset">borrar</button>
+                                    <button type="submit" class="btn btn-success">Guardarlo</button>
+                                </div>
+                            </div>
+
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- /page content -->
-            <!-- footer content -->
-            <footer>
-                <div class="pull-right">
-                    Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
-                </div>
-                <div class="clearfix"></div>
-            </footer>
-            <!-- /footer content -->
         </div>
+        <!-- /page content -->
+        <!-- footer content -->
+        <footer>
+            <div class="pull-right">
+                bienvenida <a href="https://cfc.com">listo</a>
+            </div>
+            <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+    </div>
     </div>
     <!-- jQuery -->
     <script src="Gentella/vendors/jquery/dist/jquery.min.js"></script>
@@ -127,5 +146,4 @@ $res_b_genero= mysqli_fetch_array($busc_genero);
     <!-- Custom Theme Scripts -->
     <script src="Gentella/build/js/custom.min.js"></script>
 </body>
-
 </html>

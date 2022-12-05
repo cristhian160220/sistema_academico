@@ -5,10 +5,13 @@
             </div>
 
             <div class="clearfix"></div>
-             <?php
-            $buscar_docente_sesion = buscarDocenteById($conexion, $_SESSION['id_usu_sisacad_iesthuanta']);
-            $res_b_u_s = mysqli_fetch_array($buscar_docente_sesion);
-             ?>
+            <?php
+            $buscar_usu_docente_sesion = buscarUsuarioDocenteById($conexion, $_SESSION['id_usu_sisacad_iesthuanta']);
+            $res_b_u_s = mysqli_fetch_array($buscar_usu_docente_sesion);
+            $id_d_b_S = $res_b_u_s['id_docente'];
+            $buscar_docente_sesion = buscarDocenteById($conexion, $id_d_b_S);
+            $res_b_d_s = mysqli_fetch_array($buscar_docente_sesion);
+            ?>
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
@@ -42,6 +45,7 @@
                       <li><a href="unidad_didactica.php">Unidades didacticas</a></li>
                       <li><a href="cargo.php">Cargo</a></li>
                       <li><a href="genero.php">Género</a></li>
+                      <li><a href="condicion.php">Condición</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-desktop"></i> Programación Académica <span class="fa fa-chevron-down"></span></a>

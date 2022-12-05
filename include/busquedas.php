@@ -35,7 +35,36 @@ function buscarDocenteById($conexion, $id){
     $sql = "SELECT * FROM docente WHERE id=$id";
     return mysqli_query($conexion, $sql);
 }
-
-
-
+function buscarDocente($conexion){
+    $sql = "SELECT * FROM docente";
+    return mysqli_query($conexion, $sql);
+}
+function buscarDocenteById($conexion, $id){
+    $sql = "SELECT * FROM docente WHERE id='$id'";
+    return mysqli_query($conexion, $sql);
+}
+function buscarDocenteByDni($conexion, $dni){
+    $sql = "SELECT * FROM docente WHERE dni='$dni'";
+    return mysqli_query($conexion, $sql);
+}
+function buscarDatoInstitucional($conexion){
+    $sql = "SELECT*FROM datos_institucionales";
+    return mysqli_query($conexion, $sql);
+}
+function buscarModulo($conexion){
+    $sql = "SELECT*FROM modulo_profesional";
+    return mysqli_query($conexion, $sql);
+}
+function buscarPeriodoAcademico( $conexion){
+    $sql = "SELECT*FROM periodo_academico";
+    return mysqli_query($conexion, $sql);
+}
+function buscarSemestreById($conexion, $id){
+    $sql = "SELECT *FROM semestre WHERE id= '$id'";
+    return mysqli_query($conexion, $sql);
+}
+function buscarUsuarioDocente ($conexion){
+    $sql = "SELECT * FROM usuarios_docentes";
+    return mysqli_query($conexion, $sql);
+}
 ?>
