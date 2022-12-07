@@ -10,7 +10,7 @@ include "include/verificar_sesion.php";
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BIENVENIDO </title>
+    <title>BIENVENIDO a listas de semestres </title>
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="Gentella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="Gentella/vendors/nprogress/nprogress.css" rel="stylesheet">
@@ -73,7 +73,7 @@ include "include/verificar_sesion.php";
         </div>
         <footer>
           <div class="pull-right">
-            final <a href="https://colorlib.com">Colorlib</a>
+            final <a href="https://cfc.com">cfc</a>
           </div>
           <div class="clearfix"></div>
         </footer>

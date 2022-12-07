@@ -12,7 +12,7 @@ include "include/busquedas.php";
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gentelella Alela! | </title>
+    <title>cfc inicio de seccion </title>
     <!-- Bootstrap -->
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -47,7 +47,7 @@ include "include/busquedas.php";
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            inicio de secciones <a href="https://cfc.com">cfc</a>
           </div>
           <div class="clearfix"></div>
         </footer>

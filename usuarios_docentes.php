@@ -12,7 +12,7 @@ include('include/verificar_sesion.php');
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Usuarios_docentes | </title>
+	<title>bienvenidas a Usuarios_docentes | </title>
 	<!-- Bootstrap -->
 	<link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font Awesome -->
@@ -99,7 +99,7 @@ include('include/verificar_sesion.php');
 			<!-- footer content -->
 			<footer>
 				<div class="pull-right">
-					bienvenida al sitio web <a href="cfc">mms</a>
+					bienvenida al sitio web <a href="cfc">cfc</a>
 				</div>
 				<div class="clearfix"></div>
 			</footer>

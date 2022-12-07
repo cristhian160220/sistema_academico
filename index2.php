@@ -80,7 +80,7 @@ include "include/verificar_sesion.php"
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+inicio de seccion <a href="https://cfc.com">cfc</a>
           </div>
           <div class="clearfix"></div>
         </footer>

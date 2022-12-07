@@ -15,7 +15,7 @@ include "include/verificar_sesion.php";
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Gentelella Alela! | </title>
+  <title>registros de docentes </title>
 
   <!-- Bootstrap -->
   <link href="./Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -195,7 +195,7 @@ include "include/verificar_sesion.php";
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-bbiemvenida <a href="https://colorlib.com">Colorlib</a>
+bbiemvenida <a href="https://cfc.com">cfc</a>
           </div>
           <div class="clearfix"></div>
         </footer>
