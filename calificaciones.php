@@ -11,7 +11,7 @@ include "include/verificar_sesion.php";
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gentelella Alela! | </title>
+    <title>BIENVENIDO AL SITIO DE CALIFICACIONES | </title>
     <!-- Bootstrap -->
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -63,8 +63,8 @@ include "include/verificar_sesion.php";
                       </thead>
                       <tbody>
                         <?php 
-$b_calificacion = mostrarCalificaciones($conexion);
-while ($res_b_calificacion = mysqli_fetch_array($b_calificacion)) {?>
+                      $b_calificacion = mostrarCalificaciones($conexion);
+                      while ($res_b_calificacion = mysqli_fetch_array($b_calificacion)) {?>
                           <tr>
                           <td><?php echo $res_b_calificacion['id']; ?></td>
                           <td><?php echo $res_b_calificacion['id_matricula']; ?></td>
@@ -73,24 +73,12 @@ while ($res_b_calificacion = mysqli_fetch_array($b_calificacion)) {?>
                           <td>
                             <a href="EditarCalificaciones.php?id=<?php echo $res_b_calificacion['id']; ?>" class="btn btn-primary">Editar</a>
                             <a href="OperacionEliminar/EliminarCalificaciones.php?id=<?php echo $res_b_calificacion['id']; ?>" class="btn btn-danger">Eliminar</a>
-                          </td>
-                        </tr>
-                        <?php
-                        }
-                        ?>
-                        
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
+                          </td></tr><?php}?></tbody> </table></div></div> </div> </div> </div>
         <!-- /page content -->
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            SALIDA <a href="https://CFC.com">CFC</a>
           </div>
           <div class="clearfix"></div>
         </footer>

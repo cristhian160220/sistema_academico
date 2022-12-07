@@ -17,7 +17,7 @@ $res_b_cargo = mysqli_fetch_array($busc_cargo);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>EDICIONES DE CARGOS </title>
 
     <!-- Bootstrap -->
     <link href="./Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -43,36 +43,23 @@ $res_b_cargo = mysqli_fetch_array($busc_cargo);
 <body class="nav-md">
     <style>
         input[type=number]::-webkit-outer-spin-button,
-
         input[type=number]::-webkit-inner-spin-button {
-
             -webkit-appearance: none;
-
             margin: 0;
-
         }
-
-
-
         input[type=number] {
-
             -moz-appearance: textfield;
-
         }
     </style>
-
     <body class="nav-md">
         <div class="container body">
             <div class="main_container">
                 <?php include "include/menu.php" ?>
-                <!-- Menu en la parte superior -->
-                <!-- page content -->
                 <div class="right_col" role="main">
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="x_panel">
@@ -96,7 +83,7 @@ $res_b_cargo = mysqli_fetch_array($busc_cargo);
                                                         <div class="ln_solid"></div>
                                                         <div class="form-group">
                                                             <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                                                                <a href="./cargo.php" class="btn btn-warning" type="button">Cancelar</a>
+                                                                <a href="./cargo.php" class="btn btn-warning" type="button">Cancelar  el tema</a>
                                                                 <button type="submit" class="btn btn-success">Guardar</button>
                                                             </div>
                                                         </div>
@@ -111,7 +98,7 @@ $res_b_cargo = mysqli_fetch_array($busc_cargo);
                                 <!-- footer content -->
                                 <footer>
                                     <div class="pull-right">
-                                        Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+                                    cfc cfc <a href="https://cfc.com">cfc</a>
                                     </div>
                                     <div class="clearfix"></div>
                                 </footer>

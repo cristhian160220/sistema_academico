@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>SECCION DE CREACIONES DE USUARIOS  </title>
 
     <!-- Bootstrap -->
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -43,23 +43,23 @@
               </div>
               <div>
                 <button type="submit">Registrar</button>
-                <!--<a class="btn btn-default submit" href="index.html">Registar</a>-->
+<!--<a class="btn btn-default submit" href="index.html">Registar</a>-->
               </div>
 
               <div class="clearfix"></div>
 
               <div class="separator">
                 <p class="change_link">Ya tienes una cuenta?
-                  <a href="login.php" class="to_register"> Iniciar Sesión </a>
+                  <a href="login.php" class="to_register"> Iniciar SesiOn </a>
                 </p>
 
                 <div class="clearfix"></div>
                 <br />
-                <h1>xxxxxxx</h1>
+                <h1>CFC_$"aED</h1>
 
                 <div>
-                  <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                  <h1><i class="fa fa-paw"></i> FIN</h1>
+                  <p>CFC</p>
                 </div>
               </div>
             </form>

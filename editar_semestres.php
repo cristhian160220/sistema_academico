@@ -16,7 +16,7 @@ $res_b_semestre = mysqli_fetch_array($busc_semestre);
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gentelella Alela! | </title>
+    <title>edicion de semestres </title>
     <!-- Bootstrap -->
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -45,7 +45,7 @@ $res_b_semestre = mysqli_fetch_array($busc_semestre);
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Editar semestres</h2>
+                    <h2>Editar de semestres </h2>
                     
                     <div class="clearfix"></div>
                   </div>
@@ -78,7 +78,7 @@ $res_b_semestre = mysqli_fetch_array($busc_semestre);
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          cfc <a href="https://cfc.com">cfc</a>
           </div>
           <div class="clearfix"></div>
         </footer>

@@ -17,7 +17,7 @@ $res_b_condicion = mysqli_fetch_array($busc_condicion);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>bienvenido al  erdicion de condiciones </title>
 
     <!-- Bootstrap -->
     <link href="./Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -39,26 +39,13 @@ $res_b_condicion = mysqli_fetch_array($busc_condicion);
     <!-- Custom Teme Style -->
     <link href="./Gentella/build/css/custom.min.css" rel="stylesheet">
 </head>
-
 <body class="nav-md">
     <style>
         input[type=number]::-webkit-outer-spin-button,
-
         input[type=number]::-webkit-inner-spin-button {
-
             -webkit-appearance: none;
-
-            margin: 0;
-
-        }
-
-
-
-        input[type=number] {
-
-            -moz-appearance: textfield;
-
-        }
+            margin: 0; }
+        input[type=number] {  -moz-appearance: textfield  }
     </style>
 
     <body class="nav-md">
@@ -72,12 +59,11 @@ $res_b_condicion = mysqli_fetch_array($busc_condicion);
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="x_panel">
                                                 <div class="x_title">
-                                                    <h2>Actualizar condicion<small></small></h2>
+                                                    <h2>Actualizar condiciones de esta tewma<small></small></h2>
                                                     <div class="clearfix"></div>
                                                 </div>
                                                 <div class="x_content">
@@ -96,7 +82,7 @@ $res_b_condicion = mysqli_fetch_array($busc_condicion);
                                                         <div class="ln_solid"></div>
                                                         <div class="form-group">
                                                             <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                                                                <a href="./condicion.php" class="btn btn-warning" type="button">Cancelar</a>
+                                                                <a href="./condicion.php" class="btn btn-warning" type="button">Cancelar este tema</a>
                                                                 <button type="submit" class="btn btn-success">Guardar</button>
                                                             </div>
                                                         </div>
@@ -111,7 +97,7 @@ $res_b_condicion = mysqli_fetch_array($busc_condicion);
                                 <!-- footer content -->
                                 <footer>
                                     <div class="pull-right">
-                                        Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+                                cfc<a href="https://cfc.com">cfc</a>
                                     </div>
                                     <div class="clearfix"></div>
                                 </footer>

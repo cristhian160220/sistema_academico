@@ -13,7 +13,7 @@ include('include/verificar_sesion.php');
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cargos | </title>
+    <title>SECCION DE CONDICIONES | </title>
     <!-- Bootstrap -->
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -55,12 +55,10 @@ include('include/verificar_sesion.php');
                                 <table id="example" class="table table-striped table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Identiooooficador</th>
-                                            <th>Condiciooones</th>
-                                            <th>Acciooooones</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
+                                            <th>Identificador</th>
+                                            <th>Condiciones</th>
+                                            <th>Acciones</th>
+                                        </tr></thead><tbody>
                                         <?php
                                         $b_condicion = buscarCondicion($conexion);
                                         while ($res_b_condicion = mysqli_fetch_array($b_condicion)) {
@@ -87,7 +85,7 @@ include('include/verificar_sesion.php');
             <!-- footer content -->
             <footer>
                 <div class="pull-right">
-bienvenido a nuestro sitio web <a href="">cfc</a>
+bienvenido a nuestro sitio web <a href="CFC.COM">cfc</a>
                 </div>
                 <div class="clearfix"></div>
             </footer>

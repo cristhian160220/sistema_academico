@@ -17,7 +17,7 @@ $res_b_docente = mysqli_fetch_array($busc_docente);
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gentelella Alela! | </title>
+	<title>editar cuentas de docentess </title>
 	<!-- Bootstrap -->
 	<link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font Awesome -->
@@ -47,7 +47,7 @@ $res_b_docente = mysqli_fetch_array($busc_docente);
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="x_panel">
 							<div class="x_title">
-								<h2>Editar datos del docente</h2>
+								<h2>Editar datos del docente a</h2>
 
 								<div class="clearfix"></div>
 							</div>
@@ -77,21 +77,21 @@ $res_b_docente = mysqli_fetch_array($busc_docente);
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Dirección :
+										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Direccion :
 										</label>
 										<div class="col-md-6 col-sm-6 col-xs-12">
 											<input type="text" name="direccion" class="form-control col-md-7 col-xs-12" value="<?php echo $res_b_docente['direccion']; ?>">
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Correo :
+										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Correo  electronico:
 										</label>
 										<div class="col-md-6 col-sm-6 col-xs-12">
 											<input type="email" name="correo" class="form-control col-md-7 col-xs-12" value="<?php echo $res_b_docente['correo']; ?>">
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Teléfono:
+										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Teléfono del docente:
 										</label>
 										<div class="col-md-6 col-sm-6 col-xs-12">
 											<input type="number" name="telefono" maxlength="9" class="form-control col-md-7 col-xs-12" value="<?php echo $res_b_docente['telefono']; ?>">
@@ -101,7 +101,7 @@ $res_b_docente = mysqli_fetch_array($busc_docente);
 										<label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Genero :</label>
 										<div class="col-md-6 col-sm-6 col-xs-12">
 											<select name="id_genero" id="id_genero" class="form-control col-md-7 col-xs-12" value="<?php echo $res_b_docente['id_genero']; ?>">
-												<option value="">Seleccione</option>
+												<option value="">Seleccione los siguientes temas</option>
 												<?php
 												$id_genero_docente = $res_b_docente['id_genero'];
 												$buscar_genero_d = buscarGenero($conexion);
@@ -160,7 +160,7 @@ $res_b_docente = mysqli_fetch_array($busc_docente);
 									<div class="form-group">
 										<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
 											<a href="./docentes.php" class="btn btn-warning" type="button">Cancelar</a>
-											<button type="submit" class="btn btn-success">Actualizar Datos</button>
+											<button type="submit" class="btn btn-success">aceptar y Actualizar Datos</button>
 										</div>
 									</div>
 
@@ -174,7 +174,7 @@ $res_b_docente = mysqli_fetch_array($busc_docente);
 			<!-- footer content -->
 			<footer>
 				<div class="pull-right">
-					Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+					cfc <a href="https://cfc.com">cfc</a>
 				</div>
 				<div class="clearfix"></div>
 			</footer>

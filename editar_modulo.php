@@ -17,7 +17,7 @@ $id_prog_Estudios = $res_b_modulo['id_programa_estudio'];
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gentelella Alela! | </title>
+	<title>edicion de modulos </title>
 	<!-- Bootstrap -->
 	<link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font Awesome -->
@@ -47,20 +47,18 @@ $id_prog_Estudios = $res_b_modulo['id_programa_estudio'];
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="x_panel">
 							<div class="x_title">
-								<h2>Módulos Formativos</h2>
-
+								<h2>Módulos Formativos de nuestra institucion</h2>
 								<div class="clearfix"></div>
 							</div>
 							<div class="x_content">
 								<br />
 								<form class="form-horizontal form-label-left" method="POST" action="operaciones/actualizar_modulo.php">
 									<input type="text" name="id" value="<?php echo $id_modulo; ?>">
-
 									<div class="form-group">
-                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Programa de estudios:</label>
+                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Programa de estudios: </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                         <select name="programa_estudio" id="programa_estudio" class="form-control col-md-7 col-xs-12" value="<?php echo $id_prog_Estudios; ?>">
-                          <option value="">Seleccione</option>
+                          <option value="">Seleccione el tema</option>
                           <?php
                           $buscar_programa = buscarProgramaEstudio($conexion);
                           while ($res_b_mod= mysqli_fetch_array($buscar_programa)) {
@@ -110,7 +108,7 @@ $id_prog_Estudios = $res_b_modulo['id_programa_estudio'];
 			<!-- footer content -->
 			<footer>
 				<div class="pull-right">
-					Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+				cfc<a href="https://cfc.com">cfc</a>
 				</div>
 				<div class="clearfix"></div>
 			</footer>

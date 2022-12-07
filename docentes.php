@@ -42,7 +42,7 @@ include "include/verificar_sesion.php";
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>lista de Docentes</h2>
+                    <h2>lista de Docentes cfc</h2>
                     <ul class="nav navbar-right">
                       <li>
                         <a href="RegistroDocente.php" class="btn btn-success">Agregar Nuevo</a>
@@ -72,8 +72,7 @@ include "include/verificar_sesion.php";
                       <tbody>
                         <?php 
                         $b_docente = mostrarDocente($conexion);
-                        while ($res_b_docente = mysqli_fetch_array($b_docente)){ 
-                        ?>
+                        while ($res_b_docente = mysqli_fetch_array($b_docente)){  ?>
                         <tr>
                           <td><?php echo $res_b_docente['id']; ?></td>
                           <td><?php echo $res_b_docente['dni']; ?></td>
@@ -87,8 +86,8 @@ include "include/verificar_sesion.php";
                           <td><?php echo $res_b_docente['cond_laboral']; ?></td>
                           <td><?php echo $res_b_docente['id_cargo']; ?></td>
                           <td>
-                            <a href="EditarDocente.php?id=<?php echo $res_b_docente['id']; ?>" class="btn btn-primary">EDITAR</a>
-                            <a href="OperacionEliminar/EliminarDocente.php?id=<?php echo $res_b_docente['id']; ?>" class="btn btn-danger">ELIMINAR</a>
+                            <a href="EditarDocente.php?id=<?php echo $res_b_docente['id']; ?>" class="btn btn-primary">EDITAR EL TEMA</a>
+                            <a href="OperacionEliminar/EliminarDocente.php?id=<?php echo $res_b_docente['id']; ?>" class="btn btn-danger">ELIMINAR EL TEMA</a>
                           </td>
                         </tr>
                         <?php
@@ -107,7 +106,7 @@ include "include/verificar_sesion.php";
 
         <footer>
           <div class="pull-right">
-            pagina de christhian... <a href="https://colorlib.com">azul</a>
+            pagina de christhian... <a href="https://CFC.com">azul</a>
           </div>
           <div class="clearfix"></div>
         </footer>

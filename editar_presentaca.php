@@ -18,7 +18,7 @@ $id_director = $res_b_p_academico['id_director'];
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gentelella Alela! | </title>
+  <title>edicion de presente academico </title>
   <!-- Bootstrap -->
   <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome -->
@@ -48,7 +48,7 @@ $id_director = $res_b_p_academico['id_director'];
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="x_panel">
               <div class="x_title">
-                <h2>Editar Periodo Académico</h2>
+                <h2>Editar Periodo Académico 1</h2>
 
                 <div class="clearfix"></div>
               </div>
@@ -64,14 +64,14 @@ $id_director = $res_b_p_academico['id_director'];
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Fecha inicio :
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Fecha de inicio :
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                       <input type="date" name="fecha_inicio" required="required" class="form-control col-md-7 col-xs-12" value="<?php echo $res_b_p_academico['fecha_inicio']; ?>">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Fecha Fin :
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Fecha Final :
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                       <input type="date" name="fecha_fin" required="required" class="form-control col-md-7 col-xs-12" value="<?php echo $res_b_p_academico['fecha_fin']; ?>">
@@ -82,7 +82,7 @@ $id_director = $res_b_p_academico['id_director'];
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                       <select type="text" id="director" name="director" class="form-control col-md-7 col-xs-12" value='<?php echo $id_director; ?>'>
-                        <option>Seleccionar director</option>
+                        <option>Seleccionar el director</option>
                         <?php
                         $buscar_docente = buscarDocente($conexion);
                         while ($res_b_docente = mysqli_fetch_array($buscar_docente)) {
@@ -125,7 +125,7 @@ $id_director = $res_b_p_academico['id_director'];
       <!-- footer content -->
       <footer>
         <div class="pull-right">
-          Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+        cfc <a href="https://cfc.com">cfc</a>
         </div>
         <div class="clearfix"></div>
       </footer>

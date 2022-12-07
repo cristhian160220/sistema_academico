@@ -17,7 +17,7 @@ $res_b_genero= mysqli_fetch_array($busc_genero);
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gentelella Alela! | </title>
+    <title>edicioenes de generos cfc </title>
     <!-- Bootstrap -->
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -66,7 +66,7 @@ $res_b_genero= mysqli_fetch_array($busc_genero);
                                     <div class="form-group">
                                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                                             <a href="./genero.php" class="btn btn-warning" type="button">Cancelar</a>
-                                            <button type="submit" class="btn btn-success">Actualizar Datos</button>
+                                            <button type="submit" class="btn btn-success">Actualizar Datos del tema </button>
                                         </div>
                                     </div>
 
@@ -80,7 +80,7 @@ $res_b_genero= mysqli_fetch_array($busc_genero);
             <!-- footer content -->
             <footer>
                 <div class="pull-right">
-                    Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+                cfc <a href="https://cfc.com">cfc</a>
                 </div>
                 <div class="clearfix"></div>
             </footer>

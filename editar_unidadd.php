@@ -20,7 +20,7 @@ $id_semestre= $res_b_u_didactica['id_semestre'];
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gentelella Alela! | </title>
+	<title>edicion de unidades aademicos </title>
 	<!-- Bootstrap -->
 	<link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font Awesome -->
@@ -66,7 +66,7 @@ $id_semestre= $res_b_u_didactica['id_semestre'];
 										</div>
 									</div>
 									<div class="item form-group">
-										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="number">Programa de estudios<span class="required">:</span>
+										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="number">Programa de los estudios<span class="required">:</span>
 										</label>
 										<div class="col-md-6 col-sm-6 col-xs-12">
 											<select type="text" id="p_estudios" name="p_estudios" class="form-control col-md-7 col-xs-12" value='<?php echo $id_p_estudios; ?>'>
@@ -86,11 +86,11 @@ $id_semestre= $res_b_u_didactica['id_semestre'];
 										</div>
 									</div>
 									<div class="item form-group">
-										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="number">Módulo<span class="required">:</span>
+										<label class="control-label col-md-3 col-sm-3 col-xs-12" for="number">Módulos siguientes<span class="required">:</span>
 										</label>
 										<div class="col-md-6 col-sm-6 col-xs-12">
 											<select type="text" id="modulo" name="modulo" class="form-control col-md-7 col-xs-12" value='<?php echo $id_modulo; ?>'>
-												<option>Seleccionar director</option>
+												<option>Seleccionar director...........</option>
 												<?php
 												$buscar_modulo = buscarModulo($conexion);
 												while ($res_b_modulo= mysqli_fetch_array($buscar_modulo)) {

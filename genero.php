@@ -34,7 +34,7 @@ include('./include/busquedas.php');?>
 <div class="col-md-12 col-sm-12 col-xs-12">
 <div class="x_panel">
 <div class="x_title ">
-<h2>GEWENEROS</h2>
+<h2>los siguientes temas</h2>
 <ul class="nav navbar-right">
 <a href="re_genero.php" class="btn btn-success"><i class="fa fa-plus-square"> </i> Agregar nuevo</a></ul>
 <div class="clearfix"></div></div>
@@ -56,8 +56,6 @@ bienvenido <a href="">cfc</a></div>
 </footer>
 </div>
 </div>
-
-    <!-- jQuery -->
     <script src="Gentella/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="Gentella/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -67,7 +65,6 @@ bienvenido <a href="">cfc</a></div>
     <script src="Gentella/vendors/nprogress/nprogress.js"></script>
     <!-- iCheck -->
     <script src="Gentella/vendors/iCheck/icheck.min.js"></script>
-    <!-- Datatables -->
     <script src="Gentella/vendors/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="Gentella/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
     <script src="Gentella/vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
