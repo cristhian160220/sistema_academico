@@ -10,11 +10,8 @@ $resultado_consulta = mysqli_fetch_array($ejecutar_consulta);//desfragmentar res
 $pass = $resultado_consulta['password']; //capturo la contraseña de la base de datos
 if($contar_filas==1 && password_verify($password,$pass)){
     session_start();
-    $_SESSION['id_usu_sisacad_iesthuanta'] = $resultado_consulta['id'];
+    $_SESSION             ['id_usu_sisacad_iesthuanta'] = $resultado_consulta['id'];
     header("location: ../index.php");
-} //else if($contar_filas===0){echo "<script>
-    //alert('no existe en nuestra empresa');
-    //window.location= '../login.php';</script>";}
-else{echo "<script>
+}else{   echo "<script>
     alert('Usuario o contraseña esta incorrecto');
-    window.location= '../login.php';</script>";}?>
+    window.history.back(); </script>" ;} ?>

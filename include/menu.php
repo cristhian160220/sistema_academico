@@ -6,19 +6,19 @@
 
             <div class="clearfix"></div>
             <?php
-            $buscar_usu_docente_sesion = buscarUsuarioDocenteById($conexion, $_SESSION['id_usu_sisacad_iesthuanta']);
-            $res_b_u_s = mysqli_fetch_array($buscar_usu_docente_sesion);
-            $id_d_b_S = $res_b_u_s['id_docente'];
+            $buscar_docente_sesion = buscarDocenteById($conexion, $_SESSION['id_usu_sisacad_iesthuanta']);
+            $res_b_u_s = mysqli_fetch_array($buscar_usu_docente_sesion);?>
+            <!-- $id_d_b_S = $res_b_u_s['id_docente'];
             $buscar_docente_sesion = buscarDocenteById($conexion, $id_d_b_S);
-            $res_b_d_s = mysqli_fetch_array($buscar_docente_sesion);
-            ?>
+            $res_b_d_s = mysqli_fetch_array($buscar_docente_sesion);-->
+            
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
                 <img src="Gentella/production/images/img.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
-                <span>Welcome,</span>
+                <span>BIENVENIDOS CHICAS - CHICOS,</span>
                 <h2><?php echo $res_b_u_s['apellidos_nombres']; ?></h2>
               </div>
             </div>
@@ -106,14 +106,14 @@
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
-                    <li><a href="javascript:;"> Profile</a></li>
+                    <li><a href="javascript:;"> PERFIL</a></li>
                     <li>
                       <a href="javascript:;">
                         <span class="badge bg-red pull-right">50%</span>
-                        <span>Settings</span>
+                        <span>CONFIGUERACION</span>
                       </a>
                     </li>
-                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="javascript:;">QUE</a></li>
                     <li><a href="operaciones/cerrar_sesion.php"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                   </ul>
                 </li>
@@ -128,11 +128,11 @@
                       <a>
                         <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
+                          <span>CRISTHIAN FIGUEROA CCAHUIN</span>
+                          <span class="time">3 mins </span>
                         </span>
                         <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                          SOY DOCENTE CATEDRATICO ..
                         </span>
                       </a>
                     </li>
@@ -140,7 +140,19 @@
                       <a>
                         <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
+                          <span>CRISTHIAN FIGUEROA CCAHUIN</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          PRODUCION DEL CFC.2022
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="Gentella/production/images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>CRISTHIAN FIGUEROA CCAHUIN</span>
                           <span class="time">3 mins ago</span>
                         </span>
                         <span class="message">
@@ -152,19 +164,7 @@
                       <a>
                         <span class="image"><img src="Gentella/production/images/img.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <span class="image"><img src="Gentella/production/images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
+                          <span>CRISTHIAN FIGUEROA CCAHUIN </span>
                           <span class="time">3 mins ago</span>
                         </span>
                         <span class="message">
@@ -175,7 +175,7 @@
                     <li>
                       <div class="text-center">
                         <a>
-                          <strong>See All Alerts</strong>
+                          <strong>REPORTAR ALERTAS</strong>
                           <i class="fa fa-angle-right"></i>
                         </a>
                       </div>
