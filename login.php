@@ -35,7 +35,7 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
-            <form method="POST" action="operaciones/iniciar_sesion.php" class="col-sm-6 col-md-12">
+            <form method="POST" action="operaciones/iniciar_sesion.php">
               <h1>Iniciar de Sesión *</h1>
               <div>
                 <input type="text" name="usuario" class="form-control" placeholder="Usuario" required="" />
@@ -45,7 +45,7 @@
               </div>
               <div>
                 <button type="submit">Iniciar Sesión</button>
-                <a class="reset_pass" href="#">Olvidaste tu contraseña?</a>
+                <a class="reset_pass" href="recuperar.php">Olvidaste tu contraseña?</a>
               </div>
 
               <div class="clearfix"></div>
@@ -57,6 +57,11 @@
 
                 <div class="clearfix"></div>
                 <br />
+
+                <div>
+                
+                <a class="" href="imagen.php">IMAGEN 2022</a>
+              </div>
 
 
 
