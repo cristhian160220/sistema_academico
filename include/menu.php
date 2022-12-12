@@ -1,16 +1,17 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+              <a href="index.php" class="site_title"><i class="fa fa-paw"></i> <span>bienvenido al sitio chics</span></a>
             </div>
 
             <div class="clearfix"></div>
             <?php
-            $buscar_docente_sesion = buscarDocenteById($conexion, $_SESSION['id_usu_sisacad_iesthuanta']);
-            $res_b_u_s = mysqli_fetch_array($buscar_usu_docente_sesion);?>
-            <!-- $id_d_b_S = $res_b_u_s['id_docente'];
+            $buscar_usu_docente_sesion = buscarUsuarios_Docentes_By_Id($conexion, $_SESSION['id_usu_sistema_academico']);
+            $res_b_u_s = mysqli_fetch_array($buscar_usu_docente_sesion);
+            $id_d_b_S = $res_b_u_s['id_docente'];
             $buscar_docente_sesion = buscarDocenteById($conexion, $id_d_b_S);
-            $res_b_d_s = mysqli_fetch_array($buscar_docente_sesion);-->
+            $res_b_d_s = mysqli_fetch_array($buscar_docente_sesion);
+            ?>
             
             <!-- menu profile quick info -->
             <div class="profile clearfix">
@@ -113,7 +114,7 @@
                         <span>CONFIGUERACION</span>
                       </a>
                     </li>
-                    <li><a href="javascript:;">QUE</a></li>
+                    <li><a href="javascript:;">salir</a></li>
                     <li><a href="operaciones/cerrar_sesion.php"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                   </ul>
                 </li>
