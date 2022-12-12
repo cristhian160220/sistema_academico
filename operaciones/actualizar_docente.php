@@ -26,7 +26,5 @@ if ($ejec_consulta) {
     echo "<script>
 	alert('ocurrio error');
 	window.history.back();
-	</script>";
-}
-mysqli_close($conexion);
+	</script>";} mysqli_close($conexion);
 ?>
