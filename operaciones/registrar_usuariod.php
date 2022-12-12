@@ -1,8 +1,11 @@
 <?php
 include "../include/conexion.php"; //incluir el archivo de la conexion
-$docente = $_POST['docente']; //recibir datos y guardando en una variable $docente
-$usuario = $_POST['usuario']; //recibir datos y guardando en una variable $usuario
-$password = $_POST['password']; //recibir datos y guardando en una variable $password
+//$docente = $_POST['docente']; //recibir datos y guardando en una variable $docente
+//$usuario = $_POST['usuario']; //recibir datos y guardando en una variable $usuario
+//$password = $_POST['password']; //recibir datos y guardando en una variable $password
+$docente = 2; //recibir datos y guardando en una variable $docente
+$usuario = cristhian; //recibir datos y guardando en una variable $usuario
+$password = 12345678; //recibir datos y guardando en una variable $password
 
 $password_fuerte = password_hash($password, PASSWORD_DEFAULT);// encriptar password
 
